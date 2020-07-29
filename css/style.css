@@ -283,7 +283,7 @@ hr {
 .preview {
     padding-top: 1em;
     padding-bottom: 5em !important;
-    background: url(/materials/bubble_outline.png) #2fa6530a;
+    background: url('./materials/bubble_outline.png') #2fa6530a;
     background-repeat: repeat;
     background-blend-mode: multiply;
     
