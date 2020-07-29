@@ -491,6 +491,10 @@ hr {
     border-radius: 2em;
 }
 
+#message {
+    resize: none;
+}
+
 /* MEDIA SCREEN START */
 
   @media (max-width: 991px) {
