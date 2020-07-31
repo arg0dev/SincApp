@@ -577,6 +577,25 @@ hr {
 
   }
 
+  .scrollTop {
+      position: fixed;
+      z-index: 200;
+      bottom: 2em;
+      right: 2em;
+  }
+
+  .scrollTop i {
+    background: rgb(0,187,198);
+    background: linear-gradient(90deg, rgba(0,187,198,1) 0%, rgba(42,165,93,1) 100%, rgba(4,155,161,1) 100%);
+    padding: 1.2em;
+    font-size: 1.2em;
+    border-radius: 5em;
+    color: #fff;
+    -webkit-box-shadow: 0px 0px 54px 13px rgba(0,0,0,0.16);
+    -moz-box-shadow: 0px 0px 54px 13px rgba(0,0,0,0.16);
+    box-shadow: 0px 0px 54px 13px rgba(0,0,0,0.16);
+  }
+
 
   @media (max-width: 991px) and (orientation: landscape) {
 
