@@ -4,6 +4,15 @@ html, body {
     scroll-behavior: smooth;
 }
 
+body a {
+    text-decoration: none !important;
+}
+
+body .btn {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
 
 hr {
     background-color: #2fa653;
@@ -193,6 +202,63 @@ hr {
     color: #fff;
     background: rgb(0,187,198);
     background: linear-gradient(90deg, rgba(0,187,198,1) 0%, rgba(42,165,93,1) 100%, rgba(4,155,161,1) 100%);
+}
+
+.btn-sincap-d {
+    border: 1px solid #2fa653;
+    color: #2fa653;
+    font-size: 1.0em;
+    line-height: 2em;
+    outline: none; 
+    width: 100%;
+}
+
+.btn-sincap-d:hover {
+    color: #fff;
+    background: rgb(0,187,198);
+    background: linear-gradient(90deg, rgba(0,187,198,1) 0%, rgba(42,165,93,1) 100%, rgba(4,155,161,1) 100%);
+    border-color: rgb(0,187,198);
+}
+
+div.suspend {
+    text-decoration: line-through;
+    opacity: 0.2;
+}
+
+span.b {
+    font-weight: 600;
+}
+
+h5.usr-thin {
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+.popular {
+    right: 15px;
+    font-size: 15px;
+    color: #fff;
+    background: rgba(41, 165, 95, 0.781);
+    border-radius: 1em;
+}
+
+
+.popular-abs {
+    position: absolute;
+    margin-top: -2.2em;
+}
+
+.most {
+    -webkit-box-shadow: 0px 0px 48px -21px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 48px -21px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 48px -21px rgba(0,0,0,0.75);
+    padding-top: 4em;
+    padding-bottom: 2em;
+    margin-top: -4em;
+    border-radius: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border: solid 1px #2fa653;
 }
 
 
@@ -587,6 +653,7 @@ hr {
       z-index: 200;
       bottom: 2em;
       right: 2em;
+      transition: ease 0.5s;
   }
 
   .scrollTop i {
